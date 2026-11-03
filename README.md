@@ -5,6 +5,6 @@
 
   # biociphers-lab's Website
 
-  Visit **[website URL](#)** 🚀
+  Visit **[biociphers-lab.github.io/biociphers-website](https://biociphers-lab.github.io/biociphers-website)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
