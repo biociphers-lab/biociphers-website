@@ -1,35 +1,16 @@
 ---
-title: Team
+title: People
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Lab members and opportunities
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}People
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Yoseph Barash** leads the BioCiphers Lab, which brings together researchers across Penn's Perelman School of Medicine and School of Engineering and Applied Science.
 
-{% include section.html %}
+[Meet the lab members](https://biociphersadmin.wixsite.com/biociphers/people) · [Play the alumni avatar game](https://biociphers.bitbucket.io/)
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Join us
 
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+Interested in RNA biology, genomics, or machine learning? Read the lab's [recruitment guidance](https://biociphersadmin.wixsite.com/biociphers/join) for undergraduate, graduate, and postdoctoral researchers.
