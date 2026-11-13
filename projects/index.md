@@ -1,27 +1,28 @@
 ---
-title: Projects
+title: Software
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Software, datasets, and research resources
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-code" %}Software and resources
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Tools and datasets from BioCiphers for studying RNA processing.
 
-{% include tags.html tags="publication, resource, website" %}
+## MAJIQ and VOILA
 
-{% include search-info.html %}
+MAJIQ detects and quantifies local splicing variations from RNA sequencing data. VOILA lets researchers inspect those variations and their supporting evidence.
 
-{% include section.html %}
+[Visit the MAJIQ and VOILA site](https://majiq.biociphers.org/)
 
-## Featured
+## MAJIQlopedia
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+A reference for exploring RNA splicing variation across human tissues and cancers.
 
-{% include section.html %}
+[Read the MAJIQlopedia paper](https://doi.org/10.1093/nar/gkad1043)
 
-## More
+## TrASPr
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+Code and example data for our generative model for RNA splicing prediction and design.
+
+[Explore the TrASPr repository](https://bitbucket.org/biociphers/traspr/src/main/)

@@ -1,81 +1,26 @@
 ---
 ---
+# How does RNA processing shape health and disease?
 
-# biociphers-lab's Website
+The BioCiphers Lab at the University of Pennsylvania combines machine learning, genomics, and experimental biology to understand how RNA is processed and how changes in that process contribute to disease.
 
-An engaging 1-3 sentence description of your lab.
+{% include button.html link="research" text="Explore our research" icon="fa-solid fa-microscope" %}
+{% include button.html link="projects" text="Find software and data" icon="fa-solid fa-code" %}
 
 {% include section.html %}
 
-## Highlights
+## What we study
 
-{% capture text %}
+**How cells regulate RNA.** We develop models to predict where and when alternative splicing occurs and use experiments to test those predictions.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+**How RNA changes contribute to disease.** We study how genetic variants affect RNA processing in contexts such as cancer and neurodegeneration.
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+**How to measure splicing at scale.** We build software and high-throughput assays to detect, quantify, and visualize changes in RNA processing.
 
-{% endcapture %}
+{% include section.html %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+## Explore BioCiphers
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+- [Selected publications]({{ '/research/#selected-publications' | relative_url }})
+- [MAJIQ, VOILA, and other resources]({{ '/projects/' | relative_url }})
+- [Meet the lab and learn how to join]({{ '/team/' | relative_url }})
